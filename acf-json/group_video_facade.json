@@ -1,0 +1,40 @@
+{
+  "key": "group_video_facade",
+  "title": "Video Facade Fields",
+  "fields": [
+    {
+      "key": "field_video_id",
+      "label": "YouTube Video ID",
+      "name": "video_id",
+      "type": "text",
+      "required": 1,
+      "placeholder": "dQw4w9WgXcQ",
+      "instructions": "Only the ID part of the URL. Example: for https://youtu.be/dQw4w9WgXcQ enter dQw4w9WgXcQ"
+    },
+    {
+      "key": "field_video_poster",
+      "label": "Poster Image",
+      "name": "poster_image",
+      "type": "image",
+      "return_format": "array",
+      "preview_size": "medium",
+      "instructions": "Optional. Falls back to YouTube's maxresdefault thumbnail."
+    },
+    {
+      "key": "field_video_caption",
+      "label": "Caption",
+      "name": "caption",
+      "type": "text"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "wpacfb/video-facade"
+      }
+    ]
+  ],
+  "active": true
+}

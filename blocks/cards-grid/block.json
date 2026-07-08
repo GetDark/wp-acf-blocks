@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpacfb/cards-grid",
+  "title": "Cards Grid",
+  "description": "Repeater-based card grid with ACF Pro.",
+  "category": "layout",
+  "icon": "grid-view",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "style": "file:./style.css",
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"]
+  },
+  "textdomain": "wpacfb"
+}

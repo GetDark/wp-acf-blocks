@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpacfb/video-facade",
+  "title": "Video Facade",
+  "description": "YouTube embed with facade pattern — zero impact on page load.",
+  "category": "media",
+  "icon": "video-alt3",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "style": "file:./style.css",
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"]
+  },
+  "textdomain": "wpacfb"
+}
